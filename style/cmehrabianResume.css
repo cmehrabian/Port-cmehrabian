@@ -1,20 +1,20 @@
 /* CSS declarations go here */
 body {
-	font: normal 1.1em/1.5 sans-serif;
-	color:222;
-	background-color:#edeff0;
+  font: normal 1.1em/1.5 sans-serif;
+  color:222;
+  background-color:#edeff0;
 }
 
 html,
 body,
 .main-wrapper,
 .col{
-	height: 100%;
+  height: 100%;
 }
 
 /*.main-wrapper{
-	width:90%;
-	margin: auto;
+  width:90%;
+  margin: auto;
 }
 */
 a, u {
@@ -22,127 +22,127 @@ a, u {
     color: black;
 }
 .main-nav li:hover {
-	background: #55a1c8;
+  background: #55a1c8;
 }
 
 *{
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 .main-header       { background-color: #384047; }
 .main-logo         { background-color: #5fcf80; }
 .main-nav li       { background-color: #3f8abf; }
 .primary-content   { background-color: #caebf6; }
-.secondary-content { background-color: #bfe3d0; }
+.secondary-content { background-color: #ebedee; }
 .main-footer       { background-color: #b7c0c7; }
 
 .main-wrapper {
-	width: 90%;
-	margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 .main-header {
-	padding: 15px;
-	min-height: 150px;
+  padding: 15px;
+  min-height: 150px;
 }
 
 .main-banner{
-	background: #ebedee;
-	text-align: center;
-	padding: 35px 15px;
+  background: #ebedee;
+  text-align: center;
+  padding: 35px 15px;
 }
 .slug-banner{
-	background: #ebedee;
+  background: #ebedee;
 }
 
 .main-logo,
-.main-nav,	
+.main-nav,  
 .main-nav li {
-	display: inline-block;
+  display: inline-block;
 }
 
 .main-logo,
 .main-nav, {
-	float: left;
+  float: left;
 }
 
 .main-nav li {
-	margin-top: 15px;
-	margin-right: 10px;
-	margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 
 }
 
 .main-logo,
 .main-nav li{
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 .main-logo{
-	/*float: left;*/
-	margin: 24px 30px 0 0;
+  /*float: left;*/
+  margin: 24px 30px 0 0;
 
 }
 
 .main-logo a, 
 .main-nav a {
-	display: block;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	padding: 5px 15px;
-	border-radius: 5px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 5px;
 }
 
 .col {
-	display: inline-block; 
-	padding: 20px;
-	margin-right: -5px;
-	vertical-align: top;	
+  display: inline-block; 
+  padding: 20px;
+  margin-right: -5px;
+  vertical-align: top;  
 }
 .primary-content{
-	width: 60%;
+  width: 60%;
 }
 .secondary-content{
-	width: 40%;
+  width: 40%;
 }
 .main-footer{
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #runner {
-	max-width: 75px;
-	/*position:absolute;*/
-	/*z-index: 100;*/
-	/**/
+  max-width: 75px;
+  /*position:absolute;*/
+  /*z-index: 100;*/
+  /**/
 }
 #camImg{
-	padding-bottom: 0px;
-	margin-top: 10px;
-	border-style: double;
-	border-width: 6px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  border-style: double;
+  border-width: 6px;
 }
 
 @media(max-width: 768px){
-	.main-logo,
-	.main-nav,
-	.main-nav li
-	.col {
-		display: block;
-		width: initial;
-		margin: initial;
-		height: initial;
-	}
-	.main-nav{
-		padding-left: initial;
-	}
-	.main-nav li {
-		margin-top: 15px;
-	}
-	.main-banner {
-		display: none;
-	}
+  .main-logo,
+  .main-nav,
+  .main-nav li
+  .col {
+    display: block;
+    width: initial;
+    margin: initial;
+    height: initial;
+  }
+  .main-nav{
+    padding-left: initial;
+  }
+  .main-nav li {
+    margin-top: 15px;
+  }
+  .main-banner {
+    display: none;
+  }
 }
 
 /*EXP ROTATING SURFACE*/
